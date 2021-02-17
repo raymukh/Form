@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Form</title>
+    <link rel="stylesheet" href="Form.css" type="text/css">
+
+
+<body>
+    <center>
+        <div class="form">
+            <h1>Form</h1>
+        </div>
+        <br>
+        <div class="form">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name">
+        </div>
+        <br>
+        <div class="form">
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div class="form">
+            <label for="dropdowm">What is _______?</label>
+            <br>
+            <select name="dropdownQuestion" id="dropdown">
+                <option>--Please choose a option--</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+            <br><br>
+        </div>
+        <br>
+        <div class="form">Select one<br><br>
+            <input type="radio" name="selectOne"> Option 1<br />
+            <input type="radio" name="selectOne"> Option 2<br />
+            <input type="radio" name="selectOne"> Option 3<br />
+            <input type="radio" name="selectOne"> Option 4<br />
+            <input type="radio" name="selectOne"> Option 5<br />
+            <br>
+        </div>
+        <br>
+        <div class="form">
+            <label for="pet-select">Select all that apply</label><br>
+            <input type="checkbox" name="selectAll" value="Option 1"> Option 1<br />
+            <input type="checkbox" name="selectAll" value="Option 2"> Option 2<br />
+            <input type="checkbox" name="selectAll" value="Option 3"> Option 3<br />
+            <input type="checkbox" name="selectAll" value="Option 4"> Option 4<br />
+            <input type="checkbox" name="selectAll" value="Option 5"> Option 5<br />
+            <br>
+        </div>
+        <br>
+        <div class="form">
+            <label for="name">Why Do You _______ ?</label><br>
+            <textarea id="box" name="longanwser" rows="11" cols="50"></textarea>
+        </div>
+        <br><br>
+        <form action="FormEnd.Html">
+            <input type="submit" value="Submit!">
+        </form>
+    </center>
+
+</body>
+
+</html>
