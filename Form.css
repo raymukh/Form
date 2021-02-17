@@ -1,1 +1,17 @@
-
+body {
+    background-color: #BFD7FF;
+    padding-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .form {
+    width:40%;
+    height:90%;
+    background:#ffffff;
+    padding-top: 10px;
+    border-radius: 25px;
+ } 
+ label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+ }
+ 
